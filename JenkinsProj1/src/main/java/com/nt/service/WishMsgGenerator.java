@@ -30,7 +30,7 @@ public class WishMsgGenerator extends HttpServlet
 			msg="good night";
 		
 	   out.println("<!DOCTYPE html>");
-       out.println("<html><body style='text-align:center; margin-top:150px;'>");
+       out.println("<html><body style='text-align:center; color:blue; margin-top:150px;'>");
        out.println("<h1>" + msg + "</h1>");
        out.println("<a href='index.html'>Back</a>");
        out.println("</body></html>");
